@@ -1,5 +1,6 @@
-//without strict mode..ekhane silly mistake thakleo code run korbe
+//with strict mode..ekhane  mistake thakle code run korbe na
+"use strict";
 myname();
 function myname(){
-  name ="mithun banerjee";
+  var name ="mithun banerjee";
 }
