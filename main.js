@@ -7,8 +7,13 @@
 // }
 //console.log(x); //eta if block er birer ta
 
-const x=10;
-if(true){
-   x=11;   // const change korle value change kora jabe na
-}
-console.log(x);
+// const x=10;
+// if(true){
+//    x=11;   // const change korle value change kora jabe na
+// }
+// console.log(x);
+
+let x= 20;
+let y=10;
+let sum=x+y;
+console.log(`sum is:${sum}`); //evabe backtik er vitor curley bracket er modhhe value print kora jay
