@@ -1,8 +1,9 @@
-//function
+//sprade operator
 
-//function use korte hole 'const' keyword use korte hobe .tarpor parameter '='pore dite hobe then '=>'diy '{}'use korte hobe
-const add=(x,y)=>{
-   let sum =x+y;
-   console.log(sum);
+function addnumber(x,y,z){
+  return x+y+z;
 }
-add(20,10);
+
+let number=[1,2,3];
+console.log(addnumber(...number)); //passing value by sprade operator
+
