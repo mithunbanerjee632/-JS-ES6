@@ -1,6 +1,4 @@
-//with strict mode..ekhane  mistake thakle code run korbe na
-"use strict";
-myname();
-function myname(){
-  var name ="mithun banerjee";
-}
+//Sprade Operator: three dots(...)
+let poorCountry =['Bangladesh','Srilanka','Bhutan'];
+let richCountry =[...poorCountry,'America','Canada','Italy'];
+console.log('richCountry');
