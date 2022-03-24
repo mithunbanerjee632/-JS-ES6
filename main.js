@@ -1,23 +1,21 @@
-//object literal
+//for of loop
 
-// let message = {
-//    body : function(){
-//       return `Hi,i am object function `;
-//    }
-// }
+let names =['Mithun Banerjee','Puja Mukherjee','Modhuchandrima Banerjee'];
 
-// console.log(message.body());
-
-//consize function in ES6
-
-let message = {
-   body(){
-      return `Hi,i am object function `;
-   }
+for(let name of names){
+   console.log(name); //names er element gula ekta ekta kore name er vitor asbe
 }
 
-console.log(message.body());
 
+//for in (object k iterate korar jonno use kora hoy)
 
+let details ={
+   id:141,
+   name:"mithun banerjee",
+   department:"cse"
+}
 
-
+for(let i in details){
+   //console.log(i);   //eta sudhu key return korbe
+   console.log(`${i}: ${details[i]}`);
+}
