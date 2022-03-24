@@ -11,7 +11,7 @@
 
 //forEach loop
 
-var numbers =[10,20,30,40,50];
+//var numbers =[10,20,30,40,50];
 
 // numbers.forEach(myfunction)     //foreach sobsomoy function receive kore
 
@@ -19,7 +19,14 @@ var numbers =[10,20,30,40,50];
 //    console.log(x);
 // }
 
-numbers.forEach(function(x){   //anonymous function
-   console.log(x);
+// numbers.forEach(function(x){   //anonymous function
+//    console.log(x);
+// })
+
+var numbers =[10,20,30,40,50];
+var sqrtNumbers=[];
+numbers.forEach(function(x){
+   sqrtNumbers.push(x*x);
 })
+console.log(sqrtNumbers);
 
