@@ -1,13 +1,20 @@
-//sprade operator
+//sprade operator object
 
-function addnumber(x,y,z){
-  return x+y+z;
+let p1 ={
+   name:'mithun banerjee',
+   age:26
+
 }
 
-let number1=[1,2,3];
-//console.log(addnumber(...number)); //passing value by sprade operator
-let number2=[4,5,6];
-let number=[...number1,...number2]; //concating two arrays
-console.log(number);
+let p2 ={
+   nationality:'Bangladeshi',
+   Occupation:'student'
+   
+}
+
+let p={...p1,...p2}
+console.log(p);
+
+
 
 
