@@ -13,7 +13,12 @@
 // }
 // console.log(x);
 
-let x= 20;
-let y=10;
-let sum=x+y;
-console.log(`sum is:${sum}`); //evabe backtik er vitor curley bracket er modhhe value print kora jay
+// let x= 20;
+// let y=10;
+// let sum=x+y;
+// console.log(`sum is:${sum}`); //evabe backtik er vitor curley bracket er modhhe value print kora jay
+
+
+let name="mithun banerjee";
+let message=`i am ${name} now i am learning es6`;
+console.log(message);
