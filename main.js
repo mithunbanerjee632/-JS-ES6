@@ -1,14 +1,12 @@
 //object literal
 
-function adddetails(name,age){
-   return{
-      // name:name,
-      // age:age
-      name,
-      age
+let message = {
+   body : function(){
+      return `Hi,i am object function `;
    }
-   console.log(adddetails("mithun banerjee",26));
 }
+
+console.log(message.body());
 
 
 
