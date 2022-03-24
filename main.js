@@ -1,19 +1,16 @@
-//sprade operator object
+//object literal
 
-let p1 ={
-   name:'mithun banerjee',
-   age:26
-
+function adddetails(name,age){
+   return{
+      // name:name,
+      // age:age
+      name,
+      age
+   }
+   console.log(adddetails("mithun banerjee",26));
 }
 
-let p2 ={
-   nationality:'Bangladeshi',
-   Occupation:'student'
-   
-}
 
-let p={...p1,...p2}
-console.log(p);
 
 
 
