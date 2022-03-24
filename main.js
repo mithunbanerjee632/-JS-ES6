@@ -1,10 +1,14 @@
-//Rest pararmeter(...)
+//variables
 
-function caluculation(...numbers){
-   let sum = 0;
-   for(let i of numbers){
-      sum =sum+i;
-   }
-   console.log(sum);
+//let x=10;
+// if(true){
+//    let x=11;
+//    console.log(x); //ekhane sudhu ei variable ta kaj korbe
+// }
+//console.log(x); //eta if block er birer ta
+
+const x=10;
+if(true){
+   x=11;   // const change korle value change kora jabe na
 }
-caluculation(1,2,3,4);
+console.log(x);
