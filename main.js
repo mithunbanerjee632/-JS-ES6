@@ -8,11 +8,17 @@
 // }
 
 //multidimensional array
- var bangladesh = ["Dhaka","Rangpur","Sylhet","Bairshal"]
- var india = ["Kolkata","Mumbai","Chennai","Delhi"]
- var china = ["Wuhan","Sanghai","Beijing"]
+//  var bangladesh = ["Dhaka","Rangpur","Sylhet","Bairshal"]
+//  var india = ["Kolkata","Mumbai","Chennai","Delhi"]
+//  var china = ["Wuhan","Sanghai","Beijing"]
 
- var asia =[bangladesh,india,china]
+//  var asia =[bangladesh,india,china]
 
- console.log(asia[1][2]);
- console.log(asia[0][0]);
+//  console.log(asia[1][2]);
+//  console.log(asia[0][0]);
+
+//Array Destructuring
+
+var country =["bangladesh","india","pakistan","canada"]
+var [a,b,,c] =country //jeta faka rakhbo oita arrayr value assign kora hobe
+console.log(b);
