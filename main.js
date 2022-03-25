@@ -10,4 +10,9 @@ mySet.add("Srilanka");
 mySet.add("Maldiv");
 mySet.add("India"); //ei duplicate value avoid korbe
 
-console.log(mySet);
+//console.log(mySet);
+//mySet.clear(); //sob kicu remove kore dibe
+//mySet.delete("Maldiv"); //specific value k delete kore dibe
+//console.log(mySet.size); // set er size ber korbe
+console.log(mySet.values());
+ 
