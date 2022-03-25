@@ -12,9 +12,17 @@ myMap.set("key7","Pakistan");
 
 //myMap.delete("key1")
 //myMap.delete("key2") //key dhore deleter kore dibe 
-myMap.clear(); //sob pair gulo k clear kore dibe
+//myMap.clear(); //sob pair gulo k clear kore dibe
 
-for(let myvalue of myMap.values()){   // jehetur array return kore tai for of loof chalate hobe
-    console.log(myvalue);
+//console.log(myMap.get("key5")); //key dohoer  value niye asbe
+
+// for(let myvalue of myMap.values()){   // jehetur array return kore tai for of loof chalate hobe
+//     console.log(myvalue);
+// }
+
+if(myMap.has("key2")){
+  console.log("Yes");
+}else{
+  console.log("No");
 }
 
