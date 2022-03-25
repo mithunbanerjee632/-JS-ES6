@@ -14,5 +14,11 @@ mySet.add("India"); //ei duplicate value avoid korbe
 //mySet.clear(); //sob kicu remove kore dibe
 //mySet.delete("Maldiv"); //specific value k delete kore dibe
 //console.log(mySet.size); // set er size ber korbe
-console.log(mySet.values());
+//console.log(mySet.values());
+
+if(mySet.has("India")){
+  console.log("Yes");
+}else{
+  console.log("No");
+}
  
