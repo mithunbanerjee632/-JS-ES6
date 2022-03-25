@@ -20,14 +20,27 @@
 let studeninfo ={
   id:100,
   name:'mithun banerjee',
-  gpa:5.00
+  gpa:5.00,
+  languages:{
+    native:'bangla',
+    beginer:'english'
+  }
 }
 //traditional system
+
 //console.log(studeninfo.id);
 //console.log(studeninfo.name);
 
 //Es6 system
-const {id,name,gpa}=studeninfo
-console.log(id);
+
+// const {id,name,gpa}=studeninfo
+// console.log(id);
+// console.log(name);
+// console.log(gpa);
+
+const {name,languages} =studeninfo
 console.log(name);
-console.log(gpa);
+console.log(languages);
+console.log(languages.native);
+
+
