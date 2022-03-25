@@ -10,8 +10,9 @@ myMap.set("key7","Pakistan");
 //console.log(myMap.values()); //value er jonno values() method call korte hobe..egulor value array return kore
 //console.log(myMap.keys()); //Key er jonno Keys() method call korte hobe.egulor Key array return kore
 
-myMap.delete("key1")
-myMap.delete("key2") //key dhore deleter kore dibe 
+//myMap.delete("key1")
+//myMap.delete("key2") //key dhore deleter kore dibe 
+myMap.clear(); //sob pair gulo k clear kore dibe
 
 for(let myvalue of myMap.values()){   // jehetur array return kore tai for of loof chalate hobe
     console.log(myvalue);
