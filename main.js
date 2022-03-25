@@ -24,7 +24,7 @@
   }
  ]
 
- function studentNames(){
+ function studentNames1(){
    return student.filter(function(x){
       return x.cgpa>3;  //jader cgpa 3 er upore tader details return korbe
    }).map(function(y){
@@ -34,7 +34,14 @@
    
  }
 
- console.log(studentNames());
-//Arrow function 
+ //console.log(studentNames1());
 
+//Arrow function with map and filter
 
+// const studentNames2=()=>{
+//   return student.filter((x)=>x.cgpa>3).map((y)=>y.name);   //with bracket and return
+// }
+
+const studentNames2=()=>student.filter((x)=>x.cgpa>3).map((y)=>y.name); ///without bracket and return
+
+console.log(studentNames2());
