@@ -1,60 +1,11 @@
-//Array Destructuring
+//Array method :find() and findIndex()
+//find(callback,value)->return the value of the first element that match the certain condition
+let numbers1 =[5,55,14,78,22]
+let evenNumber=numbers1.find(x => x%2 === 0) //first jar sathe condition match hobe seta return korbe
+console.log(evenNumber);
 
-//let numbers =[10,20,30,40,50]
-//let [num1,num2,num3,num4,num5]=numbers //array er value gulo k variable er vitor assign kora hoice
-//let [num1,num2,...z]=numbers //array er value gulo k variable er vitor assign kora hoice
+//findIndex():return the value of the first Index number which match the certain condition
 
-//console.log(num1);
-//console.log(z);
-
-//swap variables destructuring
-
-// let a=20,b=30;
-
-// [a,b]=[b,a]
-
-// console.log(a);
-// console.log(b);
-
-//object destructuring
-
-// let studeninfo ={
-//   id:100,
-//   name:'mithun banerjee',
-//   gpa:5.00,
-//   languages:{
-//     native:'bangla',
-//     beginer:'english'
-//   }
-// }
-
-//traditional system
-
-//console.log(studeninfo.id);
-//console.log(studeninfo.name);
-
-//Es6 system
-
-// const {id,name,gpa}=studeninfo
-// console.log(id);
-// console.log(name);
-// console.log(gpa);
-
-// const {name,languages} =studeninfo
-// console.log(name);
-// console.log(languages);
-// console.log(languages.native);
-
-//function parameter destructuring
-
-const studentInfo =({name,department})=>{
-     console.log(`${name}, ${department}`);
-}
-
-const student ={
-  name:'mithun banerjee',
-  department:'cse'
-}
-studentInfo(student);
-
-
+let numbers2 =[5,55,14,78,22]
+let evenNumberIndex=numbers2.findIndex(x => x%2 === 0) //first jar sathe condition match hobe tar index  return korbe
+console.log(evenNumberIndex);
