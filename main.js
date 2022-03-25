@@ -1,18 +1,16 @@
-//constructor: constructor hocce class er nijossho function or method.class er object jokhon create kora hoi tokhon constructor automatic call hoy.onnano function er moto constructor sudhu return korte pare na
+//static property:static er somporko holo class er sathe object er sathe noy
+
 class myClass{
-  constructor(a,b){
-    //console.log(a+b);
-    this.firstNum = a //class variable
-    this.secondNum=b
+  nonStaticProperty(){
+    console.log("i am non -static property");
   }
 
-  add(){
-    console.log(this.firstNum+this.secondNum);
+  static StaticProperty(){
+    console.log("i am a static property");
   }
-
 }
-let obj = new myClass(10,20);
-obj.add();
 
+var obj = new myClass();
+obj.nonStaticProperty(); // static property na hole object create kore call korte hoy
 
-
+myClass.StaticProperty(); //static property hole class diye sorasori call korte hoy
