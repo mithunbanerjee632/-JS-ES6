@@ -17,15 +17,17 @@
 // console.log(b);
 
 //object destructuring
-let studeninfo ={
-  id:100,
-  name:'mithun banerjee',
-  gpa:5.00,
-  languages:{
-    native:'bangla',
-    beginer:'english'
-  }
-}
+
+// let studeninfo ={
+//   id:100,
+//   name:'mithun banerjee',
+//   gpa:5.00,
+//   languages:{
+//     native:'bangla',
+//     beginer:'english'
+//   }
+// }
+
 //traditional system
 
 //console.log(studeninfo.id);
@@ -38,9 +40,21 @@ let studeninfo ={
 // console.log(name);
 // console.log(gpa);
 
-const {name,languages} =studeninfo
-console.log(name);
-console.log(languages);
-console.log(languages.native);
+// const {name,languages} =studeninfo
+// console.log(name);
+// console.log(languages);
+// console.log(languages.native);
+
+//function parameter destructuring
+
+const studentInfo =({name,department})=>{
+     console.log(`${name}, ${department}`);
+}
+
+const student ={
+  name:'mithun banerjee',
+  department:'cse'
+}
+studentInfo(student);
 
 
