@@ -7,11 +7,27 @@
 //console.log(num1);
 //console.log(z);
 
-//swap variables
+//swap variables destructuring
 
-let a=20,b=30;
+// let a=20,b=30;
 
-[a,b]=[b,a]
+// [a,b]=[b,a]
 
-console.log(a);
-console.log(b);
+// console.log(a);
+// console.log(b);
+
+//object destructuring
+let studeninfo ={
+  id:100,
+  name:'mithun banerjee',
+  gpa:5.00
+}
+//traditional system
+//console.log(studeninfo.id);
+//console.log(studeninfo.name);
+
+//Es6 system
+const {id,name,gpa}=studeninfo
+console.log(id);
+console.log(name);
+console.log(gpa);
