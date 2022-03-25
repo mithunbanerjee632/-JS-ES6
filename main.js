@@ -1,50 +1,40 @@
 //Arrow Function
 
 //traditional function 
-// function display1(){
-//    console.log("this is tradition function");
-// }
-// display1();
+ var student =[
+   {
+     id:101,
+     name:'mithun',
+     cgpa:2.30
+   },
+   {
+    id:102,
+    name:'puja',
+    cgpa:3.30
+  },
+  {
+    id:103,
+    name:'mridul',
+    cgpa:4.30
+  },
+  {
+    id:104,
+    name:'partho',
+    cgpa:4.65
+  }
+ ]
 
-//Arrow function 
-// const display2 =()=>{
-//    console.log("this is Arrow function");
+ function studentNames(){
+   return student.filter(function(x){
+      return x.cgpa>3;  //jader cgpa 3 er upore tader details return korbe
+   }).map(function(y){
+      return y.name;    //jader cgpa 3 er upore tader name return korbe
+   });
 
-// }
-// display2();
-
-//const display2 =()=>{console.log("this is Arrow function");}
-//exaple1
-// const display2 =()=>console.log("this is Arrow function"); //arrow function e curley bracket na dileo hobe
-// display2();
-//exaple2
-// const display3 =()=>{return "this is Arrow function example1";}
-// console.log(display3());
-//exaple3
-// const display4 =()=>"this is Arrow function example2"; //arrow te return and curley bracket na dileo hobe
-// console.log(display4());
-
-
-//traditional function with parameter
-
-function add1(num1,num2){
-  return num1+num2;
-}
-
-console.log(add1(10,20));
-
-//Arrow function with parameter
-
-//example with return and curley bracket
-
-const add2 = (num1,num2) => {
-   return num1+num2;
+   
  }
- 
- console.log(add2(30,20));
 
- //example without return and curley bracket
+ console.log(studentNames());
+//Arrow function 
 
- const add3 = (num1,num2) => num1+num2;
- 
- console.log(add3(50,20));
+
