@@ -1,24 +1,11 @@
-//array
-// var myArray =["A","B","C","D"]
-// var myArrayPro=new Array("A","B","C","D")
-
-// console.log(myArray[0]);
-// for(let item of myArray){
-//   console.log(item);
-// }
-
-//multidimensional array
-//  var bangladesh = ["Dhaka","Rangpur","Sylhet","Bairshal"]
-//  var india = ["Kolkata","Mumbai","Chennai","Delhi"]
-//  var china = ["Wuhan","Sanghai","Beijing"]
-
-//  var asia =[bangladesh,india,china]
-
-//  console.log(asia[1][2]);
-//  console.log(asia[0][0]);
-
-//Array Destructuring
-
-var country =["bangladesh","india","pakistan","canada"]
-var [a,b,,c] =country //jeta faka rakhbo oita arrayr value assign kora hobe
-console.log(b);
+//Map:collection of data.jekhane key and value pairing obostha thakbe
+var myMap = new Map();
+myMap.set("key1","Bangladesh");
+myMap.set("key2","India");
+myMap.set("key3","Srilanka");
+myMap.set("key4","Maldives");
+myMap.set("key5","Bhutan");
+myMap.set("key6","Afghanistan");
+myMap.set("key7","Pakistan");
+console.log(myMap.values()); //value er jonno values() method call korte hobe
+console.log(myMap.keys()); //Key er jonno Keys() method call korte hobe
