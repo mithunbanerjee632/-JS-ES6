@@ -1,4 +1,5 @@
 //Class Inhertitence:uttoradhikar sutre parent class er sob property child class peye jay
+//super keyword:er madhhome child class er modhhe parent class theke propery and functiion k sorasori call kora jay
 
 class parent{
   hello1(){
@@ -12,14 +13,13 @@ class parent{
 
 class child extends parent{
 
-  hello1(){
-    console.log("Hello1 from function..hello hello...i am from child"); //method overriding cz parent er theke child er provab besi
-  }
+ demo(){
+   super.hello1();
+   super.hello2();
+ }
 
 }
 
 var obj = new child();
-//var obj = new parent();
+obj.demo();
 
-obj.hello1();
-//obj.hello2();
